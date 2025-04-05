@@ -1,15 +1,30 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #111214;
   --foreground: #171717;
+  --sandow-gray-20: #d7d8d9;
+  --sandow-gray-40: #9ea0a5;
+  --sandow-gray-70: #50535b;
+  --sandow-gray-80: #393c43;
+  --sandow-gray-90: #24262b;
+  --sandow-gray-100: #111214;
+  --pulse-orange-50: #f97316;
+  --pulse-orange-60: #ea580c;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-sandow-gray-20: var(--sandow-gray-20);
+  --color-sandow-gray-40: var(--sandow-gray-40);
+  --color-sandow-gray-70: var(--sandow-gray-70);
+  --color-sandow-gray-80: var(--sandow-gray-80);
+  --color-sandow-gray-90: var(--sandow-gray-90);
+  --color-sandow-gray-100: var(--sandow-gray-100);
+  --color-pulse-orange-50: var(--pulse-orange-50);
+  --color-pulse-orange-60: var(--pulse-orange-60);
+  --font-work-sans: var(--font-work-sans);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +38,89 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  background-image: url("../public/banner.png");
+  object-fit: cover;
+  background-position: top;
+}
+
+.mission {
+  background-image: url("../public/missions.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.benefit {
+  background-image: url("../public/benefits.png");
+  object-fit: cover;
+  background-position: top;
+}
+
+.slogan {
+  background-image: url("../public/banner-2.png");
+  object-fit: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@keyframes scrollLeft1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+@keyframes scrollLeft2 {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+@keyframes scrollLeft3 {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-content-1 {
+  display: flex;
+  gap: 16px;
+  white-space: nowrap;
+  width: max-content;
+  /* Make multiple copies to ensure seamless looping */
+  animation: scrollLeft1 30s linear infinite;
+}
+
+.scroll-content-2 {
+  display: flex;
+  gap: 16px;
+  white-space: nowrap;
+  width: max-content;
+  /* Make multiple copies to ensure seamless looping */
+  animation: scrollLeft2 30s linear infinite;
+}
+
+.scroll-content-3 {
+  display: flex;
+  gap: 16px;
+  white-space: nowrap;
+  width: max-content;
+  /* Make multiple copies to ensure seamless looping */
+  animation: scrollLeft3 30s linear infinite;
 }
