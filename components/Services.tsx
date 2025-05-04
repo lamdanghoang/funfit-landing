@@ -120,8 +120,7 @@ const Services = () => {
           </div>
           <div className="md:w-md md:ml-48 flex flex-col gap-6">
             <p className="mt-4 md:mt-0 text-lg md:text-xl leading-[1.6]">
-              Funfit cung cấp các dịch vụ bài tập thể hình và mục tiêu dinh
-              dưỡng với các tính năng được cá nhân hóa dựa trên AI.
+              Boar provides fitness workout plans and nutritional goals with AI-based personalized features
             </p>
             <button className="w-fit px-8 py-5 flex bg-sandow-gray-100 text-white font-semibold gap-4 rounded-3xl">
               Free Trial <MoveRightIcon />

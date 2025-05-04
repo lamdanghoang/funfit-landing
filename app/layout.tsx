@@ -8,7 +8,7 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Funfit",
+  title: "Boar",
   description: "Your Fitness Journey Starts Here",
 };
 

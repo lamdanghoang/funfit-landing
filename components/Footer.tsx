@@ -1,7 +1,7 @@
 import Facebook from "@/assets/facebook";
 import Instagram from "@/assets/instagram";
 import LinkedIn from "@/assets/linkedIn";
-import { MailIcon, MoveRight, MoveRightIcon } from "lucide-react";
+import { MailIcon, MoveRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,10 +11,10 @@ const Footer = () => {
       <div className="px-15 md:px-32 flex flex-col gap-6 md:gap-16">
         <Image
           className="md:mx-auto"
-          src="/funfit-logo.svg"
+          src="/boarfit-logo.png"
           alt="funfit logo"
-          width={53}
-          height={60}
+          width={100}
+          height={100}
         />
         <div className="md:hidden -mr-20 flex gap-8">
           <Facebook />

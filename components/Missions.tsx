@@ -1,6 +1,11 @@
+'use client";'
 import { DownloadIcon } from "lucide-react";
 
 const Missions = () => {
+  const DownLoadApp = () => {
+    window.location.href = "https://drive.google.com/file/d/1zEHWtBXFvAJ18ng59UK6upsqjO_lX6Xm/view?usp=drive_link";
+  };
+
   return (
     <section id="mission" className="flex px-3 md:px-6 pt-5 md:pt-10">
       <div className="mission w-full md:h-[656px] bg-[#F97316] md:flex justify-between rounded-[40px]">
@@ -16,7 +21,7 @@ const Missions = () => {
             </span>{" "}
             transform your workouts into an adventure.
           </p>
-          <button className="p-5 flex bg-white text-[#111214] font-semibold gap-4 rounded-3xl">
+          <button className="p-5 flex bg-white text-[#111214] font-semibold gap-4 rounded-3xl" onClick={DownLoadApp}>
             Download The App
             <DownloadIcon />
           </button>

@@ -29,25 +29,25 @@ export default HowToTrain;
 const steps = [
   {
     page: 1,
-    title: "Chọn Thử Thách",
+    title: "Choose Your Challenge", // Translated from "Chọn Thử Thách"
     description:
-      "Trả lời một vài câu hỏi nhanh để AI cá nhân hóa kế hoạch tập luyện phù hợp với mục tiêu (giảm cân, tăng cơ, duy trì thể lực) và thể trạng của bạn.",
+      "Answer a few quick questions to let the AI personalize a workout plan suitable for your goals (lose weight, gain muscle, maintain fitness) and physical condition.",
     icon: <CpuIcon />,
     image: "/step-1.png",
   },
   {
     page: 2,
-    title: "Tập Luyện & Chinh Phục",
+    title: "Train & Conquer", // Translated from "Tập Luyện & Chinh Phục"
     description:
-      "Thực hiện bài tập với hướng dẫn chi tiết bằng video, nhận phản hồi thời gian thực từ AI để đảm bảo kỹ thuật đúng và hiệu quả tối đa.",
+      "Perform exercises with detailed video guidance, receiving real-time feedback from the AI to ensure correct technique and maximum effectiveness.",
     icon: <LightbulbIcon />,
     image: "/step-2.png",
   },
   {
     page: 3,
-    title: "Nhận Thưởng & Kết Nối",
+    title: "Get Rewards & Connect", // Translated from "Nhận Thưởng & Kết Nối"
     description:
-      "Mỗi buổi tập giúp bạn kiếm phần thưởng, có thể dùng để mở khóa bài tập cao cấp, hoặc giao dịch. Kết nối với cộng đồng để chia sẻ thành tích và nhận động lực!",
+      "Each workout session helps you earn rewards, which can be used to unlock premium exercises or for trading. Connect with the community to share achievements and get motivated!",
     icon: <ChartNoAxesColumnIcon />,
     image: "/step-3.png",
   },

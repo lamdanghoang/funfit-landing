@@ -13,7 +13,7 @@ const Benefits = () => {
   return (
     <section id="benefit" className="benefit">
       <div className="px-12 py-10 md:px-32 md:py-20 flex flex-col items-center justify-center gap-6 md:gap-12">
-        <h2 className="text-4xl md:text-8xl font-bold">Funfit Benefits</h2>
+        <h2 className="text-4xl md:text-8xl font-bold">Boar Benefits</h2>
 
         <div className="grid md:grid-cols-3 gap-4">
           {benefits.map((benefit, index) => (
@@ -39,37 +39,37 @@ const benefits = [
   {
     title: "Gamification",
     description:
-      "Với các thử thách, huy hiệu và bảng xếp hạng tạo nên môi trường cạnh tranh lành mạnh, thúc đẩy người dùng duy trì thói quen tập luyện.",
+      "With challenges, badges, and leaderboards creating a healthy competitive environment, motivating users to maintain their workout habits.",
     icon: <BotIcon />,
   },
   {
-    title: "Công nghệ AI",
+    title: "AI Technology",
     description:
-      "Phản hồi thời gian thực và hướng dẫn bằng video/3D, giúp người dùng thực hiện bài tập đúng kỹ thuật và tối ưu hiệu quả.",
+      "Real-time feedback and video/3D guidance help users perform exercises with correct technique and optimize effectiveness.",
     icon: <CpuIcon />,
   },
   {
-    title: "Trải Nghiệm Cá Nhân Hóa",
+    title: "Personalized Experience",
     description:
-      "Lịch tập tự động và bài tập đa dạng được thiết kế riêng theo mục tiêu và thể trạng của từng người, mang lại trải nghiệm tối ưu.",
+      "Automated training schedules and diverse exercises tailored to each user's goals and fitness level, providing an optimal experience.",
     icon: <UserIcon />,
   },
   {
-    title: "Kết Nối Cộng Đồng",
+    title: "Community Connection",
     description:
-      "Chia sẻ thành tích và tạo nhóm giúp các gymer xây dựng mối quan hệ, tạo động lực cùng vượt qua thử thách tập luyện.",
+      "Sharing achievements and creating groups helps users build relationships and motivate each other to overcome workout challenges together.",
     icon: <WaypointsIcon />,
   },
   {
     title: "Workout and Earn",
     description:
-      "Biến nỗ lực của bạn thành giá trị thực! – Thực hiện challenges và nhận phần thưởng qua ứng dụng Blockchain của chúng tôi.",
+      "Turn your effort into real value! – Complete challenges and receive rewards through our Blockchain application.",
     icon: <TrophyIcon />,
   },
   {
-    title: "Theo Dõi Hiệu Quả",
+    title: "Performance Tracking",
     description:
-      "Đồng bộ dữ liệu từ các thiết bị wearables giúp theo dõi chính xác các chỉ số sức khỏe, từ đó đánh giá và điều chỉnh chương trình.",
+      "Sync data from wearable devices to accurately track health metrics, allowing for evaluation and adjustment of the program.",
     icon: <ChartNoAxesColumnIcon />,
   },
 ];

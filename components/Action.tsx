@@ -1,6 +1,9 @@
 import { DownloadIcon } from "lucide-react";
 
 const Action = () => {
+  const DownLoadApp = () => {
+    window.location.href = "https://drive.google.com/file/d/1zEHWtBXFvAJ18ng59UK6upsqjO_lX6Xm/view?usp=drive_link";
+  };
   return (
     <section id="action" className="flex px-3 pb-6 md:p-6">
       <div className="mission w-full md:h-[656px] bg-[#F97316] md:flex justify-between rounded-[40px]">
@@ -11,9 +14,9 @@ const Action = () => {
           </h2>
           <p className="text-xl leading-[1.6] font-normal">
             Transform your workouts, challenge your limits, and achieve your
-            fitness goals – Download Funfit today!
+            fitness goals – Download Boar today!
           </p>
-          <button className="flex text-lg font-semibold gap-4 items-center">
+          <button className="flex text-lg font-semibold gap-4 items-center" onClick={DownLoadApp}>
             Download App
             <span className="p-5 bg-sandow-gray-100 rounded-3xl">
               <DownloadIcon />
