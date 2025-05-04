@@ -1,3 +1,4 @@
+'use client";'
 import { DownloadIcon } from "lucide-react";
 
 const Action = () => {
