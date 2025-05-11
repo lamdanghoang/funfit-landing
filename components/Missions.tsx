@@ -3,7 +3,7 @@ import { DownloadIcon } from "lucide-react";
 
 const Missions = () => {
   const DownLoadApp = () => {
-    window.location.href = "https://drive.google.com/file/d/1zEHWtBXFvAJ18ng59UK6upsqjO_lX6Xm/view?usp=drive_link";
+    window.location.href = "https://drive.google.com/file/d/1alUA0fYgjgOXTBovgJ-4-F1s-iPp3OiQ/view?usp=sharing";
   };
 
   return (

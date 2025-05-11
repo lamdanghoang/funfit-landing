@@ -3,7 +3,7 @@ import { DownloadIcon } from "lucide-react";
 
 const Action = () => {
   const DownLoadApp = () => {
-    window.location.href = "https://drive.google.com/file/d/1zEHWtBXFvAJ18ng59UK6upsqjO_lX6Xm/view?usp=drive_link";
+    window.location.href = "https://drive.google.com/file/d/1alUA0fYgjgOXTBovgJ-4-F1s-iPp3OiQ/view?usp=sharing";
   };
   return (
     <section id="action" className="flex px-3 pb-6 md:p-6">
